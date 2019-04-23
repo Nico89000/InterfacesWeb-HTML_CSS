@@ -1,0 +1,168 @@
+html{
+     background: #1a1a1a;
+}
+
+.pays{
+    background: #1a1a1a;
+    text-align: center;
+}
+
+img{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.fitImage{
+    min-width: auto;
+    min-height: auto;
+}
+
+
+
+.marker-point-america{
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    word-wrap: break-word;
+    z-index: 0;
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-left: 380px;
+    margin-top: -350px;
+    background: #858080d9;
+    border: 5px solid #7fcff7;
+
+    transition: transform .3s, background .3s;
+
+}
+.marker-point-america:hover{
+    transform: scale(1.4);
+}
+
+.marker-point-euro{
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    word-wrap: break-word;
+    z-index: 0;
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-left: 700px;
+    margin-top: -70px;
+    background: #858080d9;
+    border: 5px solid #7fcff7;
+
+    transition: transform .3s, background .3s;
+
+}
+.marker-point-euro:hover{
+    transform: scale(1.4);
+}
+
+.marker-point-asia{
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    word-wrap: break-word;
+    z-index: 0;
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-left: 950px;
+    margin-top: -20px;
+    background: #858080d9;
+    border: 5px solid #7fcff7;
+
+    transition: transform .3s, background .3s;
+
+}
+.marker-point-asia:hover{
+    transform: scale(1.4);
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .marker-point-america {
+        margin-left: 50px;
+        margin-top: -150px;
+    }
+
+    .marker-point-euro {
+        margin-left: 150px;
+        margin-top: -30px;
+    }
+
+    .marker-point-asia {
+        margin-left: 250px;
+        margin-top: -30px;
+    }
+}
+
+
+@media screen and (min-width: 640px)  and (max-width: 1024px) {
+
+    .marker-point-america {
+        margin-left: 90px;
+        margin-top: -250px;
+    }
+
+    .marker-point-euro {
+        margin-left: 325px;
+        margin-top: -60px;
+    }
+
+    .marker-point-asia {
+        margin-left: 500px;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (min-width: 1023px)  and (max-width: 1024px) {
+
+    .marker-point-america {
+        margin-left: 150px;
+        margin-top: -300px;
+    }
+
+    .marker-point-euro {
+        margin-left: 450px;
+        margin-top: -60px;
+    }
+
+    .marker-point-asia {
+        margin-left: 800px;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (min-width: 1441px)  and (max-width: 2650px) {
+
+    .marker-point-america {
+        margin-left: 35%;
+        margin-top: -350px;
+    }
+
+    .marker-point-euro {
+        margin-left: 50%;
+        margin-top: -60px;
+    }
+
+    .marker-point-asia {
+        margin-left: 55%;
+        margin-top: -30px;
+    }
+}
+

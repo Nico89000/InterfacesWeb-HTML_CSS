@@ -1,0 +1,249 @@
+body{
+    background-color: #eeeeee;
+}
+
+header h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.XIX-siecle{
+    background: url("../Images/19thCentury.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.XX-siecle{
+    background: url("../Images/20thCentury.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.XXI-siecle{
+    background:url("../Images/21thCentury.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+.century{
+    background: #333;
+    color: #f8e8e8;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 60px;
+    width: 20%;
+    word-wrap: break-word;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    opacity: .5;
+}
+
+img{
+    display: block;
+  max-width:300px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
+
+.timeline{
+    position: relative;
+    min-height: 811px;
+    overflow-y: hidden;
+    z-index: 100;
+}
+
+/* Barre centrale frise*/
+.timeline-item::before{
+    content: '';
+    position: absolute;
+    background-color:#dd5555;
+    width: 10px;
+    height: 100%;
+    left: 500px;
+}
+
+.timeline-item{
+    margin: 0 74px;
+}
+
+.timeline-item-details{
+    display: inline-block;
+    margin-bottom: 64px;
+}
+
+.timeline-item:first-child .timeline-item-details {
+    margin-top: 64px;
+}
+
+.timeline-item-details-date, .timeline-item-details-marker, .timeline-item-details-description {
+    float: left;
+}
+
+.event-date{
+    color: white;
+    text-align: center;
+    margin: 7px;
+    font-weight: bold;
+}
+
+/* Date */
+.timeline-item-details-marker{
+    position: relative;
+    z-index: 10;
+    border-radius: 50%;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    margin-left: 400px;
+    transition: transform .3s, background-color .3s;
+}
+
+.timeline-item-details:hover .timeline-item-details-marker{
+    transform: scale(1.4);
+    background-color: #f35252;
+
+}
+/* Petite bar liant date et contenu */
+.timeline-item-details-description::before{
+    content: '';
+    position: absolute;
+    background-color: #dd5555;
+    width: 80px;
+    height: 10px;
+    margin-left: -99px;
+    margin-top: 18px;
+}
+
+/* Element à droite */
+.timeline-item-details-description{
+    padding: 16px;
+    color: #333;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 4px;
+    margin-left: 74px;
+    margin-top: -20px;
+    word-wrap: break-word;
+    opacity: .9;
+    transition: opacity .3s;
+    border: 3px solid #333;
+}
+
+/* Element à gauche */
+.timeline-item-details-description-left{
+    padding: 16px;
+    color: #333;
+    width: 400px;
+    background-color: #fff;
+    word-wrap: break-word;
+    border-radius: 4px;
+    opacity: .9;
+    transition: opacity .3s;
+    border: 3px solid #333;
+}
+
+.timeline-item-details:hover .timeline-item-details-description{
+    opacity: 1;
+}
+
+.timeline-item-details:hover .timeline-item-details-description-left{
+    opacity: 1;
+}
+
+.timeline-item-details-description h2{
+    font-weight: 2.5em;
+    margin-bottom: 16px;
+}
+
+.timeline-item-details-description p {
+    line-height: 23px;
+}
+
+@media screen and (max-width: 640px) {
+    .fitImage{
+        width: 50%;
+        height: 50%;
+    }
+    .timeline-item::before{
+        left: 150px;
+    }
+
+    .timeline-item-details-description{
+      width: auto;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -75px;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .timeline-item-details-description-left{
+        width: auto;
+        top: 50%;
+        left: 50%;
+        margin-top: 200px;
+        margin-left: -75px;
+        max-width: 100%;
+        margin: auto;
+
+    }
+
+    .timeline-item-details-description::before{
+       visibility: hidden;
+    }
+
+    .timeline-item-details-marker{
+        margin-left: 55px;
+    }
+
+    .timeline-item-details-description{
+        margin-top: 20px;
+    }
+    .timeline-item-details-description-left{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 641px)and (max-width: 1024px) {
+    .timeline-item::before{
+        left: 312px;
+    }
+
+    .timeline-item-details-description{
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .timeline-item-details-description-left{
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: auto;
+        max-width: 100%;
+        width: 100%;
+
+    }
+
+    .timeline-item-details-description::before{
+       visibility: hidden;
+    }
+
+    .timeline-item-details-marker{
+        margin-left: 220px;
+        margin-bottom: -30px;
+    }
+
+    .timeline-item-details-description{
+        margin-top: 20px;
+    }
+    .timeline-item-details-description-left{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,85 @@
+.testNav{
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 25px;
+    text-align: center
+}
+
+.top {
+    background: url('../Images/Jeff/jeff-top.jpg') no-repeat center fixed;
+     background-size:cover;
+     padding-top: 60vh;
+     height: 100vh;
+   }
+.top h1 {
+    font-family: 'Cutive Mono';
+    text-align: center; font-size: 80px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 800;
+}
+.top h5 {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+     margin-top: 0px;
+     font-size: 40px;
+     color: #FFFFFF;
+     text-shadow: 1px 1px 0px #000000}
+
+.middle {
+    padding-top: 100px;
+    padding-bottom: 100px}
+.middle h3 {
+    font-family: 'Cutive Mono';
+    font-size: 24px
+}
+
+.middle h2 {
+    padding-top: 25px;
+    font-family: 'Cutive Mono';
+    font-size: 24px
+}
+
+.middle p {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px; color: dark-gray
+}
+
+.middle ul {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px; color: dark-gray
+}
+.container{
+    text-align: center;
+}
+
+a:visited {
+    color: black;
+}
+a:link {
+    color: black;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#quote {
+    background: url('../Images/Jeff/jeff-footer.jpg') no-repeat top fixed; 
+    background-size:cover;
+     height: 75vh; padding-top: 100px
+    }
+#quote h2 {
+    font-family: 'Cutive Mono';
+    color: white; font-size: 24px;
+    text-shadow: 2px 2px 2px #000
+}
+#quote h5 {
+    font-family: 'Neucha', cursive;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-shadow: 2px 2px 2px #000;
+    text-align: right
+}

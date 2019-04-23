@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900');
+body{
+	font-family: 'Lato', cursive;
+}
+header{
+	padding-bottom: 20px;
+}
+header>section{
+	padding-right: 0 !important;
+}
+header ul li{
+	text-align: right;
+}
+header li a{
+	color: white !important;
+}
+header li a::after{
+	content:'';
+	border-right:2px solid white;
+	padding-right: 17px;
+}
+header li:last-of-type a::after{
+	content:'';
+	border-right:none;
+	padding-right: 0;
+}
+main{
+	background-color: #f3f3f3;
+	padding-bottom: 30px;
+}
+main h2{
+	text-transform: uppercase;
+	font-size: 2em;
+	margin-top: 20px;
+}
+
+aside .infos{
+	justify-content: space-around;
+	width: 50%;
+	display: inline-block;
+	background-color: white;
+	margin-top: 15%;
+	background-color: white;
+	box-shadow: 0 0 5px lightgrey;
+}
+
+aside .newsletter{
+	justify-content: space-around;
+	width: 50%;
+	display: inline-block;
+	background-color: white;
+	margin-top: 15%;
+	background-color: white;
+	box-shadow: 0 0 5px lightgrey;
+	justify-content: space-around;
+}
+
+aside .cat{
+	width: 50%;
+	display: inline-block;
+	height: 50%;
+}
+
+.infos h2{
+	padding-left: 25%;
+}
+
+.lSpacer{
+	margin-left:30px;
+}
+.rSpacer{
+	margin-right:30px;
+}
+.bgRed{
+	background-color: #f10d33;
+}
+.bgDarkGrey{
+	background-color: #212121;
+}
+.bgLightDarkGrey{
+	background-color: #1f1e1e;
+}
+.whiteFont{
+	color:white;
+}
+.noBorder{
+	border: none;
+}
+.cartIcon{
+	padding:10px;
+	border-radius: 50%;
+	position: relative;
+	top: -12px;
+}
+.cartIcon+div p{
+	color: white;
+	margin: 0;
+}
+#navMenu{
+	text-transform: uppercase;
+}
+nav{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+nav img{
+	width: 15vh;
+}
+#navMenu ul>li a{
+	color: white;
+	padding-left: 50px;
+	margin-left: 20vh;
+}
+#catList ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+#catList ul>li{
+	padding: 5px;
+	border-bottom: 1px solid lightgrey;
+}
+
+#s1 .col{
+	background-color: #f10d33;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#s1 .col p{
+	margin: 0;
+}
+#s1 .col p:first-child{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#catList,aside .categoriesliste,#s2,#s3 .row,#s4,#s5,#s6{
+	background-color: white;
+	box-shadow: 0 0 5px lightgrey;
+}
+#s3{
+	justify-content: space-around;
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+
+}
+
+#hover1:hover, #hover2:hover, #hover3:hover, #hover4:hover, #hover5:hover,#hover6:hover,#hover7:hover,#hover8:hover,#hover9:hover,#hover10:hover,#hover11:hover,#hover12:hover{
+	transform:scale(1.03);
+	box-shadow:20px 23px 5px rgba(0,0,0,.25);
+	transition: all .2s;
+}
+
+.nav-link:hover{
+	transform:scale(1.50);
+	transition: all .5s;
+}
+
+.etiquettes{
+	width: 50%;
+}
+
+.colonne2{
+	margin-left: 5%;
+	width: 100%;
+}
+
+
+#s3 .col{
+  text-align: right;
+}
+.zuckerberg{
+	background: url('../img/markzuckerberg.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.billgates{
+	background: url('../img/billgates.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+.stevejobs{
+	background: url('../img/stevejobs.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.TimBernersLee{
+	background: url('../img/TimBernersLee.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.tedcodd{
+	background: url('../img/tedcodd.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+
+
+.jeffbezos{
+	background: url('../img/jeffbezos.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.zuckerberg{
+	background: url('../img/markzuckerberg.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.billgates{
+	background: url('../img/billgates.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.zuckerberg{
+	background: url('../img/markzuckerberg.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.billgates{
+	background: url('../img/billgates.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.zuckerberg{
+	background: url('../img/markzuckerberg.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+.billgates{
+	background: url('../img/billgates.jpg') no-repeat;
+	background-size: cover;
+	clip-path: polygon(0 100%, 80% 100%, 99% 0,0 0);
+}
+
+
+
+
+#brands{
+	width: 100%;
+}
+
+
+.year{
+	font-family: 'Raleway', sans-serif;
+	font-size: 3.5em;
+	font-weight: 900;
+	color: #e3e3e3;
+	padding-top: 25px;
+	margin: 0;
+	line-height: 1;
+}
+.subtitle{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 1.4em;
+	margin: 0;
+}
+
+#s5 .col-6:first-child{
+	background: url('../img/laptops.png') no-repeat center;
+	background-size: cover;
+}
+
+#s5 h2{
+	font-size: 1.5em;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+#s5 h2+p{
+	color:blue;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+#s5 a{
+	border:none;
+	border-radius: 15px;
+}
+#s6 .col-3{
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+#brandLine{
+	padding: 20px;
+}
+#coordinates{
+	padding-top:50px;
+	color: #f3f3f3;
+}
+#coordinates i{
+	color:#f10d33;
+}
+#coordinates p, footer ul li{
+	font-size:0.8em;
+}
+#coordinates h2{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+footer{
+	color: #f3f3f3;
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+}
+footer p{
+	margin: 0;
+}
+footer .nav-link{
+	color: white !important;
+}
+.card-image{
+	overflow: hidden;
+}
+.card-img-top{
+	transition: 2s;
+}
+.card-img-top:hover{
+	transform: scale(1.5);
+	transition: 2s;
+}
+.owl-nav{
+	position: absolute;
+	top: -60px;
+	right: 1%;
+	font-size: 4em;
+	height: 30px;
+}
+#feedback{
+	display: none;
+}
+
+@media (max-width: 576px) { 
+/*	body{
+		font-size: 10px;
+	}*/
+	.lSpacer, .rSpacer{
+		margin:0;
+	}
+}
+@media (min-width: 576px) { 
+	body{
+		font-size: 10px;
+	}
+	.lSpacer, .rSpacer{
+		margin:0;
+	}
+}
+
+@media (min-width: 768px) { 
+	body{
+		font-size: 11px;
+	}
+	.lSpacer{
+		margin-left:30px;
+	}
+	.rSpacer{
+		margin-right:30px;
+	}
+}
+
+@media (min-width: 992px) { 
+	body{
+		font-size: 12px;
+	}
+}
+
+/*// Pour la largeur de l'ecran */
+@media (min-width: 1200px) { 
+}
